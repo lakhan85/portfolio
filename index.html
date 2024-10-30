@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakhan Sharma's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .project, .skill, .certificate {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+        }
+        .certificate-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .certificate-images img {
+            width: calc(33.333% - 20px);
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .certificate-images img {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .certificate-images img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lakhan Sharma</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <img src="C:\Users\shrir\Desktop\photo.jpg" alt="Lakhan Sharma" class="profile-pic">
+    <p>Hello! I'm Lakhan Sharma,persuing diploma in computer engg. student at Jamia Millia Islamia (2022-2025). </p>
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="responsive">
+        <div class="skill">C</div>
+        <div class="skill">C++</div>
+        <div class="skill">Java</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+    </div>
+</section>
+
+<section id="certificates">
+    <h2>Certificates</h2>
+    <div class="certificate">
+        <h3>Internship at MainFlow</h3>
+        <p>Data Science with Python | Duration :5 June to 5 aug</p>
+    </div>
+    <div class="certificate">
+        <h3>Internship at GrassTech</h3>
+        <p>AI and ML Domain | Duration :1 July to 15 aug</p>
+    </div>
+    <h3>Certificate Images</h3>
+    <div class="certificate-images">
+        <img src="C:\Users\shrir\Desktop\certificate.jpg" alt="Certificate 1">
+   <embed src="C:\Users\shrir\Downloads\Lakhan Sharma AI & MLCertificate.pdf" width="600" height="500" type="application/pdf">    <img src="C:\Users\shrir\Desktop\Lakhan Sharma AI & MLCertificate.jpg" alt="Certificate 2">
+
+
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+        <h3>Simple Chatbot Using Python</h3>
+        <p>A chatbot developed using Python that can answer basic questions and engage in simple conversations.</p>
+     
+    </div>
+    <div class="project">
+        <h3>NLP Text Summarization Tool</h3>
+        <p>This project implements a tool that summarizes long articles into concise versions using NLP techniques, helping users quickly grasp the main points.</p>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to email me at <a href="mailto:lakhansharma18470@gmail.com">lakhansharma18470@gmail.com</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Lakhan Sharma. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
